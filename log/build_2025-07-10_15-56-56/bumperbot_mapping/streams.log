@@ -1,0 +1,98 @@
+[0.037s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping
+[0.250s] -- The C compiler identification is GNU 13.3.0
+[0.346s] -- The CXX compiler identification is GNU 13.3.0
+[0.386s] -- Detecting C compiler ABI info
+[0.618s] -- Detecting C compiler ABI info - done
+[0.636s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.637s] -- Detecting C compile features
+[0.638s] -- Detecting C compile features - done
+[0.690s] -- Detecting CXX compiler ABI info
+[1.035s] -- Detecting CXX compiler ABI info - done
+[1.082s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.085s] -- Detecting CXX compile features
+[1.087s] -- Detecting CXX compile features - done
+[1.148s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.638s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.601s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.826s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.888s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.496s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.520s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.968s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.048s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.394s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.412s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.658s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[4.760s] -- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[6.078s] -- Configuring done (6.0s)
+[6.149s] -- Generating done (0.0s)
+[6.166s] -- Build files have been written to: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping
+[6.207s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping
+[6.209s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+[6.466s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[21.760s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[22.479s] [100%] Built target mapping_with_known_poses
+[22.598s] [100%] Built target ament_cmake_python_copy_bumperbot_mapping
+[23.119s] running egg_info
+[23.121s] creating bumperbot_mapping.egg-info
+[23.159s] writing bumperbot_mapping.egg-info/PKG-INFO
+[23.159s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[23.159s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[23.160s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[23.289s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[23.289s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[23.358s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[23.390s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+[23.393s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping
+[23.410s] -- Install configuration: ""
+[23.411s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[23.412s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[23.412s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info
+[23.413s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[23.413s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[23.413s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[23.414s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[23.415s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping
+[23.415s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[23.415s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[23.499s] Listing '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[23.500s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py'...
+[23.500s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py'...
+[23.510s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/include/include
+[23.510s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[23.511s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[23.511s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[23.519s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""
+[23.520s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[23.520s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[23.520s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[23.528s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[23.529s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[23.529s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[23.530s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[23.541s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[23.542s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[23.542s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[23.557s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[23.557s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[23.559s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[23.560s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[23.560s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[23.560s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[23.561s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[23.562s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[23.562s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[23.563s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[23.563s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[23.564s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[23.564s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[23.564s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[23.565s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[23.565s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[23.566s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[23.566s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[23.567s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[23.571s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_mapping

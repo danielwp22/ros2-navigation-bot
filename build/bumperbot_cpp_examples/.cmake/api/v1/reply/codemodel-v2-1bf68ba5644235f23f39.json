@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-90e0cd6362edc0404657.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_cpp_examples_uninstall-c146ebc95b4f4c586717.json",
+					"name" : "bumperbot_cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client-880dfbb350d0006d9ac5.json",
+					"name" : "simple_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client_node-b04c5a2677dea2238d9d.json",
+					"name" : "simple_action_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server-135b18c62b0b415ef946.json",
+					"name" : "simple_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server_node-6d977d0fe900f34b499b.json",
+					"name" : "simple_action_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle_node-ad9a6a561646eea4887f.json",
+					"name" : "simple_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_parameter-c066a412d564829d7784.json",
+					"name" : "simple_parameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-a6d55825feed1b7feff9.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_qos_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_qos_publisher-9c3f6742fccb4622c846.json",
+					"name" : "simple_qos_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_qos_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_qos_subscriber-5c9f0f348d468f7b37b5.json",
+					"name" : "simple_qos_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_client-8b8c518e58d3071e1564.json",
+					"name" : "simple_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_server-45b66cecaf87b96484ef.json",
+					"name" : "simple_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-d9f78c01ddf1fdc15aae.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_tf_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_tf_kinematics-fd6ead88fd332d277afd.json",
+					"name" : "simple_tf_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_turtlesim_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_turtlesim_kinematics-8abb3a1920dfcfb4322b.json",
+					"name" : "simple_turtlesim_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d77dbc736e3c8b8e105f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_cpp_examples",
+		"source" : "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

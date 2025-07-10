@@ -1,0 +1,8 @@
+{
+  "package_name": "bumperbot_msgs",
+  "non_idl_tuples": [
+    "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_msgs:action/Fibonacci.action",
+    "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_msgs:srv/AddTwoInts.srv",
+    "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_msgs:srv/GetTransform.srv"
+  ]
+}

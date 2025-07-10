@@ -1,0 +1,319 @@
+[0.089s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs
+[1.389s] -- The C compiler identification is GNU 13.3.0
+[1.741s] -- The CXX compiler identification is GNU 13.3.0
+[1.912s] -- Detecting C compiler ABI info
+[2.250s] -- Detecting C compiler ABI info - done
+[2.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.268s] -- Detecting C compile features
+[2.268s] -- Detecting C compile features - done
+[2.282s] -- Detecting CXX compiler ABI info
+[2.462s] -- Detecting CXX compiler ABI info - done
+[2.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.482s] -- Detecting CXX compile features
+[2.482s] -- Detecting CXX compile features - done
+[3.010s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.501s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.140s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.844s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.996s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.310s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.918s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[6.175s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.979s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[10.384s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.397s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[11.706s] -- Found PythonExtra: /usr/bin/python3  
+[13.019s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[13.381s] -- Configuring done (12.9s)
+[13.855s] -- Generating done (0.4s)
+[13.930s] -- Build files have been written to: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs
+[13.949s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs
+[13.949s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs -- -j4 -l4
+[14.214s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[16.491s] [  1%] Built target bumperbot_msgs__rosidl_generator_type_description
+[16.751s] [  1%] Built target ament_cmake_python_copy_bumperbot_msgs
+[17.025s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[23.864s] [  3%] Built target bumperbot_msgs__cpp
+[25.620s] running egg_info
+[25.620s] creating bumperbot_msgs.egg-info
+[25.813s] writing bumperbot_msgs.egg-info/PKG-INFO
+[25.814s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[25.814s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[25.814s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[26.345s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[26.356s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[26.619s] [  3%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[26.680s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[31.079s] [  7%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__description.c.o[0m
+[31.603s] [  9%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o[0m
+[31.735s] [ 11%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[32.072s] [ 12%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[32.242s] [ 14%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o[0m
+[32.666s] [ 16%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[32.987s] [ 18%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[33.055s] [ 20%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[33.133s] [ 22%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o[0m
+[33.892s] [ 24%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[33.988s] [ 24%] Built target bumperbot_msgs__rosidl_generator_c
+[34.035s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35.748s] [ 27%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[38.908s] [ 29%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[40.687s] [ 31%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[41.404s] [ 33%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[41.762s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[41.791s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[43.680s] [ 37%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[43.960s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[44.140s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[44.280s] [ 42%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[44.407s] [ 42%] Built target bumperbot_msgs__rosidl_typesupport_c
+[44.454s] [ 44%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[46.201s] [ 46%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[48.131s] [ 48%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[49.022s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[50.211s] [ 51%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[50.477s] [ 51%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[50.512s] [ 53%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[52.310s] [ 55%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[53.378s] [ 57%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[54.104s] [ 59%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[54.879s] [ 61%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[55.062s] [ 61%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[55.083s] [ 62%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[55.967s] [ 64%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[56.136s] [ 66%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[56.269s] [ 68%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[56.363s] [ 70%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[56.420s] [ 70%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[56.445s] [ 72%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[57.503s] [ 74%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[58.903s] [ 75%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[59.765s] [ 77%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[60.626s] [ 79%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[60.794s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[60.832s] [ 79%] Built target bumperbot_msgs
+[60.881s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[62.753s] [ 81%] Built target bumperbot_msgs__py
+[62.805s] [ 83%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o[0m
+[63.515s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[63.858s] [ 87%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[64.115s] [ 88%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_py.so[0m
+[64.244s] [ 88%] Built target bumperbot_msgs__rosidl_generator_py
+[64.315s] [ 90%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[64.597s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[64.669s] [ 92%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[64.722s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[64.999s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so[0m
+[65.080s] [ 96%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[65.130s] [ 98%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[65.402s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[65.468s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[65.489s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs -- -j4 -l4
+[65.494s] Invoking command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs
+[65.521s] -- Install configuration: ""
+[65.522s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[65.523s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.json
+[65.523s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.json
+[65.525s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.json
+[65.525s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.525s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.525s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h
+[65.526s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.527s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__description.c
+[65.527s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.c
+[65.527s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h
+[65.528s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[65.528s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h
+[65.528s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h
+[65.529s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.529s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[65.530s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.530s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[65.530s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[65.531s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[65.531s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[65.532s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[65.532s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__description.c
+[65.532s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[65.533s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[65.533s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__description.c
+[65.533s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[65.534s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[65.534s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[65.535s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[65.535s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[65.536s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[65.536s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[65.536s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[65.538s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[65.538s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[65.538s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.539s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.539s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.539s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[65.540s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.540s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.540s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[65.540s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[65.541s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[65.541s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[65.542s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[65.543s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[65.543s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.543s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.544s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp
+[65.545s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.545s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp
+[65.545s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.hpp
+[65.546s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp
+[65.546s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp
+[65.546s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.547s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[65.547s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[65.547s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.548s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[65.548s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[65.549s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[65.549s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[65.549s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[65.550s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[65.550s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[65.551s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[65.551s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[65.551s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[65.552s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.552s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.552s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.552s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/dds_fastrtps
+[65.553s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[65.553s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.553s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.554s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[65.554s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[65.555s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[65.555s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[65.555s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.555s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.557s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.557s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.558s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.558s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.559s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[65.559s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[65.559s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.559s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.560s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[65.560s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[65.561s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[65.561s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[65.561s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[65.562s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[65.562s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[65.563s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[65.564s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[65.565s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[65.565s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[65.565s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[65.566s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[65.566s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[65.567s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.cpp
+[65.567s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[65.567s] -- Up-to-date: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[65.568s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[65.568s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[65.568s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[65.568s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[65.570s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[65.570s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[65.571s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[65.572s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[65.572s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[65.573s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[65.574s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info
+[65.574s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[65.574s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[65.575s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[65.575s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[65.575s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs
+[65.576s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[65.576s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action
+[65.577s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci_s.c
+[65.577s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py
+[65.577s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py
+[65.578s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv
+[65.578s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py
+[65.578s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[65.579s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform_s.c
+[65.579s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py
+[65.580s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py
+[65.580s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[65.580s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[65.581s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[65.582s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py
+[65.582s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[65.582s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[65.684s] Listing '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs'...
+[65.684s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py'...
+[65.684s] Listing '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action'...
+[65.684s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py'...
+[65.684s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py'...
+[65.684s] Listing '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv'...
+[65.685s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py'...
+[65.685s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py'...
+[65.685s] Compiling '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py'...
+[65.694s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[65.695s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[65.695s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[65.697s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[65.698s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[65.699s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so" to ""
+[65.699s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[65.700s] -- Set non-toolchain portion of runtime path of "/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[65.700s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl
+[65.701s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[65.701s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[65.702s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action
+[65.702s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[65.702s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[65.703s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[65.703s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[65.703s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[65.704s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[65.705s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[65.705s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[65.705s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[65.706s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[65.706s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[65.708s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[65.709s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[65.709s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[65.711s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[65.712s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[65.712s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[65.713s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[65.713s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[65.714s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[65.714s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[65.715s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[65.716s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[65.716s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[65.716s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[65.717s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[65.717s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[65.718s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[65.718s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[65.719s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[65.719s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[65.719s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[65.720s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.720s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.720s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[65.721s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[65.722s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[65.722s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[65.722s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[65.723s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[65.723s] -- Installing: /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[65.728s] Invoked command in '/home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/danielwp22/ROS2-navigation-course/Section8_Decision_Making/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ROS2-navigation-course/Section7_Navigation/bumperbot_ws/install/bumperbot_py_examples:/home/danielwp22/ros2_ws/install/my_turtle_pkg:/home/danielwp22/ros2_ws/install/my_py_pkg:/home/danielwp22/ros2_ws/install/actions_py:/home/danielwp22/ros2_ws/install/lifecycle_py:/home/danielwp22/ros2_ws/install/executors_py:/home/danielwp22/ros2_ws/install/components_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/danielwp22/ROS2-navigation-course/Section9_Build_the_Robot/bumperbot_ws/build/bumperbot_msgs
