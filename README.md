@@ -10,7 +10,7 @@ Watch the robot in action performing SLAM around a trash bin:
 ## 🔧 Features
 
 - 🗺️ **SLAM** using LiDAR (LDS-01) and ROS 2's `slam_toolbox`
-- 🚗 **2-Wheel Differential Drive** with encoder feedback
+- 🚗 **2-Wheel Differential Drive** with encoder feedback and PD control
 - 🧠 **Autonomous Navigation** using Nav2 stack
 - 🖥️ **Live Visualization** through RViz2 and Gazebo
 
