@@ -1,4 +1,4 @@
-# 🧭 Autonomous SLAM Robot with LiDAR and 2-Wheel Drive
+# Autonomous SLAM Robot with LiDAR and 2-Wheel Drive
 
 This repository contains the source code for a custom-built autonomous robot that uses **SLAM (Simultaneous Localization and Mapping)** and **LiDAR** to navigate and map its environment. The robot is a 2-wheel differential drive system running on **ROS 2**, with real-time mapping and basic autonomous navigation functionality.
 
