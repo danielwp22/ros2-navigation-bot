@@ -10,7 +10,7 @@ Watch the robot in action performing SLAM around a trash bin:
 ## 🔧 Features
 
 - 🗺️ Real-time SLAM with `slam_toolbox` and RPLiDAR
-- 🚗 2-wheel differential drive system with encoder feedback
+- 🚗 2-wheel differential drive system with encoder feedback and PD control
 - 🧭 Autonomous path planning and obstacle avoidance using Nav2
 - 📡 Remote control option via `teleop_twist_keyboard`
 - 🖥️ Live visualization through RViz2
