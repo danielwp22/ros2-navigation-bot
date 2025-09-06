@@ -5,7 +5,7 @@ This repository contains the source code and hardware design for a custom-built 
 ## 📽️ Demo
 
 Watch the robot in action performing SLAM around a trash bin:  
-[![SLAM Demo](https://img.youtube.com/vi/jFDPmfWLyAU/0.jpg)](https://youtu.be/jFDPmfWLyAU)
+![Robot Moving around trash bin + performing SLAM](https://i.imgur.com/AHnA28t.gif)
 
 ## 🔧 Features
 
