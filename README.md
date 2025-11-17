@@ -4,7 +4,11 @@ This repository contains the source code and hardware design for a custom-built 
 
 ## 📽️ Demo
 
-Watch the robot in action performing SLAM around a trash bin:  
+The simulated robot using Nav2 to plan a path and follow it around a trash bin:
+![Robot Moving around trash bin + performing SLAM in SIM](https://i.imgur.com/meSrnDx.gif)
+
+
+The robot navigating around a trash bin in my room:
 ![Robot Moving around trash bin + performing SLAM](https://i.imgur.com/AHnA28t.gif)
 
 ## 🔧 Features
